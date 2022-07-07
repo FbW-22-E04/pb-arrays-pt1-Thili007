@@ -33,7 +33,7 @@ const asianCities = ["Colombo", "Mumbai", "Jakartha", "Teheran", "Daka"];
 
 // Exercise - 07
 
-const worldCities = euroCities.concat(asianCities);
+const worldCities = asianCities.concat(euroCities);
 
 console.log(worldCities);
 
